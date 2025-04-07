@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Button */
+.home-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Section Title */
+.section-title {
+    color: #00cc00;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+.market-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.market-table caption {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.market-table th, .market-table td {
+    border: 2px solid #007bff;
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.market-table th {
+    background-color: #00ffff;
+    color: #0000ff;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+/* Amenities Section */
+.amenities {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.amenities h2 {
+    color: #333;
+}
+
+.amenities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.amenities li {
+    margin: 10px 0;
+}
+
+.amenities a {
+    text-decoration: none;
+    color: #005f73;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.amenities a:hover {
+    color: #9b2226;
+}
+
+/* Back to Homepage */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #9b2226;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-link:hover {
+    background-color: #005f73;
+}
+
+/* Date Section */
+.date {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #005f73;
+    color: white;
+    padding: 10px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}

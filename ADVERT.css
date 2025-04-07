@@ -1,0 +1,42 @@
+/* Advertise Section */
+.advertise {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.advertise h2, .advertise h3 {
+    color: #333;
+}
+
+.advertise p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.advertise ul {
+    list-style: none;
+    padding: 0;
+}
+
+.advertise li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #005f73;
+    font-weight: bold;
+}
+
+.advertise a {
+    color: #9b2226;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.advertise a:hover {
+    text-decoration: underline;
+}

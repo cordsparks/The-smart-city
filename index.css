@@ -1,0 +1,50 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar Container */
+.navbar-container {
+    background-color: #007bff; /* Blue color */
+    padding: 15px;
+}
+
+/* Logo Styling */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Button Styling */
+.nav-links a {
+    text-decoration: none;
+    background-color: white;
+    color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    background-color: #0056b3;
+    color: white;
+}

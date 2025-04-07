@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.button-container {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table */
+.petrol-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.petrol-table caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.petrol-table th, .petrol-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.petrol-table th {
+    background-color: #f2f2f2;
+}
+
+.petrol-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.petrol-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.petrol-table a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.petrol-table a:hover {
+    text-decoration: underline;
+}

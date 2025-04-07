@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Apartment page</title>
+  <link rel="stylesheet" href="APP.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find an Apartment</title>
+    <link rel="stylesheet" href="APP.css">
+    <script defer src="APP.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Find an Apartment</h1>
+        <nav>
+            <a class="btn" href="index.html">🏠 Home</a>
+          
+          <nav>
+            <a class="btn" href="NHR.html">Nyahururu page</a>
+        </nav>
+    </header>
+
+    <section class="search-section">
+        <input type="text" id="search" placeholder="Search by location..." onkeyup="filterApartments()">
+    </section>
+
+    <section class="apartment-list">
+        <table>
+            <caption>Market Prices Per Local Town (KSHS)</caption>
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Agency/Owner</th>
+                    <th>Contacts</th>
+                    <th>Directions</th>
+                    <th>Rooms</th>
+                    <th>Price (KSHS)</th>
+                    <th>Parking Available</th>
+                </tr>
+            </thead>
+            <tbody id="apartmentTable">
+                <tr>
+                    <td>CO SITE</td>
+                    <td>HOMLINK</td>
+                    <td>0723444654</td>
+                    <td><a href="https://maps.app.goo.gl/nXRrAWAyiH33Xqf1A" target="_blank">Find Me</a></td>
+                    <td>2BR</td>
+                    <td>7500</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>STAREHE</td>
+                    <td>MR. KIAGO</td>
+                    <td>0721231189</td>
+                    <td><a href="https://maps.app.goo.gl/TCrq165dm6M7hAEx9" target="_blank">Find Me</a></td>
+                    <td>2BR</td>
+                    <td>10000</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <a href="mailto:muniuelsie@gmail.com">📧 Feedback</a>
+    </footer>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./APP.js"></script>
+
+</body>
+</html>
