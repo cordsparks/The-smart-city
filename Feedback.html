@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Smart City Navigator</title>
+    <link rel="stylesheet" href="Feedback.css">
+    <script src="Feedback.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+        <p>We value your feedback!</p>
+    </header>
+
+    <section class="feedback">
+        <h2>Share Your Thoughts</h2>
+        <p>Tell us how we can improve your experience.</p>
+
+        <form id="feedbackForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Feedback:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <p id="feedbackResponse" class="hidden"></p>
+    </section>
+
+
+
+    <section class="date">
+        <p id="currentDate"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Smart City Navigator | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./Feedback.js"></script>
+
+</body>
+</html>
